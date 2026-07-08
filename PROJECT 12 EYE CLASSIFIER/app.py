@@ -16,7 +16,7 @@ st.write("Upload an eye image to get the prediction.")
 # ----------------------------
 @st.cache_resource
 def load_model():
-    interpreter = tf.lite.Interpreter(model_path="my_eye_detection_model_quantized.tflite")
+    interpreter = tf.lite.Interpreter(model_path="PROJECT 12 EYE CLASSIFIER/my_eye_detection_model_quantized.tflite")
     interpreter.allocate_tensors()
     return interpreter
 
