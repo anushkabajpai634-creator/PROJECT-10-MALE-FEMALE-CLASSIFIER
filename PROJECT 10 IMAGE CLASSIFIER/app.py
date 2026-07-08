@@ -4,7 +4,7 @@ from PIL import Image
 from tensorflow.keras.models import load_model
 
 # Load trained model
-model = load_model("binary_image_classifier.keras")
+model = load_model("PROJECT 10 IMAGE CLASSIFIER/binary_image_classifier.keras")
 
 # Class labels
 classes = ["Female", "Male"]
