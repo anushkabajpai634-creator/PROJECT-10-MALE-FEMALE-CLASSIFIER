@@ -68,9 +68,9 @@ if uploaded_file is not None:
         probability = float(output[0][0])
 
         if probability > 0.5:
-            prediction = "Open Eye"
+            prediction = "MALE EYE"
         else:
-            prediction = "Closed Eye"
+            prediction = "FEMALE EYE"
 
         st.success(prediction)
         st.write(f"Confidence: {probability:.2f}")
