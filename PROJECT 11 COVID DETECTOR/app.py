@@ -9,7 +9,7 @@ from PIL import Image
 # -----------------------------
 @st.cache_resource
 def load_covid_model():
-    return load_model("model.keras")  # or model.h5 if using H5
+    return load_model("PROJECT 11 COVID DETECTOR/model.keras")  # or model.h5 if using H5
 
 model = load_covid_model()
 
